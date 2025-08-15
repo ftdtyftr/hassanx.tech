@@ -92,7 +92,7 @@ export default function Header() {
               </svg>
             </a>
             <a 
-              href="https://www.fiverr.com/hassanxtech" 
+              href="https://www.fiverr.com/hasan0x" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:opacity-80 transition-opacity" 
@@ -105,17 +105,16 @@ export default function Header() {
                 viewBox="0 0 24 24" 
                 fill="none" 
                 stroke="currentColor" 
-                strokeWidth="1.8" 
+                strokeWidth="2" 
                 strokeLinecap="round" 
                 strokeLinejoin="round" 
                 className="flex-shrink-0"
                 style={{width: '23px', height: '23px'}}
                 aria-hidden="true"
               >
-                <circle cx="12" cy="12" r="9"></circle>
-                <path d="M9 7v10"></path>
-                <path d="M9 7h7"></path>
-                <path d="M9 12h5"></path>
+                <path d="M10 6v12"></path>
+                <path d="M10 8h8"></path>
+                <path d="M10 12h6"></path>
               </svg>
             </a>
             <a 
@@ -420,7 +419,7 @@ export default function Header() {
                   </a>
 
                   <a
-                    href="https://www.fiverr.com/hassanxtech"
+                    href="https://www.fiverr.com/hasan0x"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-4 text-zinc-900 hover:opacity-80 transition-opacity py-2"
@@ -439,10 +438,9 @@ export default function Header() {
                       className="size-6"
                       aria-hidden="true"
                     >
-                      <circle cx="12" cy="12" r="9"></circle>
-                      <path d="M9 7v10"></path>
-                      <path d="M9 7h7"></path>
-                      <path d="M9 12h5"></path>
+                      <path d="M10 6v12"></path>
+                      <path d="M10 8h8"></path>
+                      <path d="M10 12h6"></path>
                     </svg>
                     <span className="text-lg font-medium">Fiverr</span>
                   </a>
