@@ -92,6 +92,33 @@ export default function Header() {
               </svg>
             </a>
             <a 
+              href="https://www.fiverr.com/hassanxtech" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:opacity-80 transition-opacity" 
+              aria-label="Fiverr"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="24" 
+                height="24" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="1.8" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                className="flex-shrink-0"
+                style={{width: '23px', height: '23px'}}
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M9 7v10"></path>
+                <path d="M9 7h7"></path>
+                <path d="M9 12h5"></path>
+              </svg>
+            </a>
+            <a 
               href="https://www.instagram.com/hassantech" 
               target="_blank" 
               rel="noopener noreferrer" 
@@ -390,6 +417,34 @@ export default function Header() {
                       <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
                     </svg>
                     <span className="text-lg font-medium">Instagram</span>
+                  </a>
+
+                  <a
+                    href="https://www.fiverr.com/hassanxtech"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-4 text-zinc-900 hover:opacity-80 transition-opacity py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      width="24" 
+                      height="24" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      strokeWidth="2" 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round" 
+                      className="size-6"
+                      aria-hidden="true"
+                    >
+                      <circle cx="12" cy="12" r="9"></circle>
+                      <path d="M9 7v10"></path>
+                      <path d="M9 7h7"></path>
+                      <path d="M9 12h5"></path>
+                    </svg>
+                    <span className="text-lg font-medium">Fiverr</span>
                   </a>
 
                   <a
