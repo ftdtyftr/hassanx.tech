@@ -79,7 +79,13 @@ export const metadata: Metadata = {
       "Frontend developer & designer with 3+ years building user-friendly, performant interfaces.",
     images: ["https://hassanx.tech/hassan.png"],
   },
-  icons: { icon: "/favicon.ico" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png", sizes: "any" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({
