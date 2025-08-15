@@ -92,32 +92,6 @@ export default function Header() {
               </svg>
             </a>
             <a 
-              href="https://www.fiverr.com/hasan0x" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="hover:opacity-80 transition-opacity" 
-              aria-label="Fiverr"
-            >
-              <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width="24" 
-                height="24" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                stroke="currentColor" 
-                strokeWidth="2" 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                className="flex-shrink-0"
-                style={{width: '23px', height: '23px'}}
-                aria-hidden="true"
-              >
-                <path d="M10 6v12"></path>
-                <path d="M10 8h8"></path>
-                <path d="M10 12h6"></path>
-              </svg>
-            </a>
-            <a 
               href="https://www.instagram.com/hassantech" 
               target="_blank" 
               rel="noopener noreferrer" 
@@ -219,6 +193,33 @@ export default function Header() {
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                 <rect width="4" height="12" x="2" y="9"></rect>
                 <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            {/* Fiverr moved to last */}
+            <a 
+              href="https://www.fiverr.com/hasan0x" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:opacity-80 transition-opacity" 
+              aria-label="Fiverr"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="24" 
+                height="24" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="1.8" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                className="flex-shrink-0"
+                style={{width: '24px', height: '24px'}}
+                aria-hidden="true"
+              >
+                <path d="M9 6v12"></path>
+                <path d="M9 8h10"></path>
+                <path d="M9 12h7"></path>
               </svg>
             </a>
           </div>
@@ -418,32 +419,7 @@ export default function Header() {
                     <span className="text-lg font-medium">Instagram</span>
                   </a>
 
-                  <a
-                    href="https://www.fiverr.com/hasan0x"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center space-x-4 text-zinc-900 hover:opacity-80 transition-opacity py-2"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg" 
-                      width="24" 
-                      height="24" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      strokeWidth="2" 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      className="size-6"
-                      aria-hidden="true"
-                    >
-                      <path d="M10 6v12"></path>
-                      <path d="M10 8h8"></path>
-                      <path d="M10 12h6"></path>
-                    </svg>
-                    <span className="text-lg font-medium">Fiverr</span>
-                  </a>
+                  
 
                   <a
                     href="https://tiktok.com/@HassanTech"
@@ -493,6 +469,34 @@ export default function Header() {
                       <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"></path>
                     </svg>
                     <span className="text-lg font-medium">Blog</span>
+                  </a>
+
+                  {/* Fiverr moved to last */}
+                  <a
+                    href="https://www.fiverr.com/hasan0x"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-4 text-zinc-900 hover:opacity-80 transition-opacity py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      width="26" 
+                      height="26" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      strokeWidth="2" 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round" 
+                      className="size-6"
+                      aria-hidden="true"
+                    >
+                      <path d="M9 6v12"></path>
+                      <path d="M9 8h10"></path>
+                      <path d="M9 12h7"></path>
+                    </svg>
+                    <span className="text-lg font-medium">Fiverr</span>
                   </a>
 
                   <a
