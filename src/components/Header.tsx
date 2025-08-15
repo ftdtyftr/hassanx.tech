@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Close menu when clicking outside
   useEffect(() => {
     const handleClickOutside = () => {
       if (isMenuOpen) {
@@ -195,7 +194,6 @@ export default function Header() {
                 <circle cx="4" cy="4" r="2"></circle>
               </svg>
             </a>
-            {/* Fiverr moved to last */}
             <a 
               href="https://www.fiverr.com/hasan0x" 
               target="_blank" 
@@ -471,7 +469,6 @@ export default function Header() {
                     <span className="text-lg font-medium">Blog</span>
                   </a>
 
-                  {/* Fiverr moved to last */}
                   <a
                     href="https://www.fiverr.com/hasan0x"
                     target="_blank"

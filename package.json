@@ -1,7 +1,30 @@
 {
-  "name": "portfolio-nextjs",
-  "version": "0.1.0",
-  "private": true,
+  "name": "hassan-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website showcasing Hassan's work as a Frontend Developer & Designer",
+  "private": false,
+  "author": {
+    "name": "Hassan Shafique",
+    "email": "hsnshafique090@gmail.com",
+    "url": "https://github.com/HassanXTech"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HassanXTech/hassan-portfolio.git"
+  },
+  "homepage": "https://hassanx.tech",
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "developer",
+    "designer",
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "framer-motion"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -24,5 +47,9 @@
     "eslint-config-next": "15.4.6",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }

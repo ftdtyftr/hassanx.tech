@@ -15,13 +15,6 @@ export default function About() {
           <p>I&apos;ve built a large developer community on social media because I actually know what I&apos;m talking about. My open-source projects prove it.</p>
           <p>The result? Interfaces that don&apos;t just impress your users - they convert them.</p>
           <br />
-          {/* <a
-            target="_blank"
-            className="text-[#9D8BF5] underline hover:text-[#8e7ddf] font-medium hover:underline transition-colors"
-            href="https://hassanx.tech/"
-          >
-            I also blog about design, development, and everything in between.
-          </a> */}
           <p>When I&apos;m not coding, I&apos;m at the gym or watching anime. Hot chocolate over coffee, always.</p>
           <p className="font-medium">I don&apos;t just build interfaces. I build interfaces that work.</p>
         </div>
