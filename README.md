@@ -4,8 +4,8 @@
 
 ## 🚀 Personal Portfolio Website
 
-[![CodeFactor](https://img.shields.io/codefactor/grade/github/HassanXTech/Portfolio?color=2f2a24&logo=codefactor&logoColor=fff&style=for-the-badge)](https://www.codefactor.io/repository/github/HassanXTech/Portfolio)
-[![GitHub Stars](https://img.shields.io/github/stars/HassanXTech/Portfolio?color=463f37&logo=github&logoColor=fff&style=for-the-badge)](https://github.com/HassanXTech/Portfolio)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/HassanXTech/hassanx.tech?color=2f2a24&logo=codefactor&logoColor=fff&style=for-the-badge)](https://www.codefactor.io/repository/github/HassanXTech/hassanx.tech)
+[![GitHub Stars](https://img.shields.io/github/stars/HassanXTech/hassanx.tech?color=463f37&logo=github&logoColor=fff&style=for-the-badge)](https://github.com/HassanXTech/hassanx.tech)
 [![Code License](https://img.shields.io/badge/code%20license-proprietary-5d5449?style=for-the-badge&logo=github&logoColor=fff)](LICENSE)
 [![Content License](https://img.shields.io/badge/content%20license-CC%20BY--NC--ND%204.0-756a5b?style=for-the-badge&logo=creativecommons&logoColor=fff)](LICENSE.content.md)
 
@@ -57,7 +57,7 @@ This is a list of the various technologies used to build this portfolio:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/HassanXTech/Portfolio.git
+   git clone https://github.com/HassanXTech/hassanx.tech.git
    cd Portfolio
    ```
 
@@ -237,7 +237,7 @@ While this is a personal portfolio, suggestions and improvements are welcome! Pl
 [cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
 [cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 
-[CodeFactor]: https://img.shields.io/codefactor/grade/github/HassanXTech/Portfolio?color=2f2a24&logo=codefactor&logoColor=fff&style=for-the-badge
-[GitHub Stars]: https://img.shields.io/github/stars/HassanXTech/Portfolio?color=463f37&logo=github&logoColor=fff&style=for-the-badge
+[CodeFactor]: https://img.shields.io/codefactor/grade/github/HassanXTech/hassanx.tech?color=2f2a24&logo=codefactor&logoColor=fff&style=for-the-badge
+[GitHub Stars]: https://img.shields.io/github/stars/HassanXTech/hassanx.tech?color=463f37&logo=github&logoColor=fff&style=for-the-badge
 [Code License]: https://img.shields.io/badge/code%20license-proprietary-5d5449?style=for-the-badge&logo=github&logoColor=fff
 [Content License]: https://img.shields.io/badge/content%20license-CC%20BY--NC--ND%204.0-756a5b?style=for-the-badge&logo=creativecommons&logoColor=fff

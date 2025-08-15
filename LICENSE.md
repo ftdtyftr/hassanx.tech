@@ -1,6 +1,6 @@
 # LICENSE
 
-This license file pertains to the portfolio website hosted at [hassanx.tech](https://hassanx.tech) and its associated repository, [HassanXTech/Portfolio](https://github.com/HassanXTech/Portfolio).
+This license file pertains to the portfolio website hosted at [hassanx.tech](https://hassanx.tech) and its associated repository, [HassanXTech/hassanx.tech](https://github.com/HassanXTech/hassanx.tech).
 
 ---
 
