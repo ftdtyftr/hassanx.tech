@@ -1,8 +1,9 @@
-# Hassan Portfolio
+<img width="1902" height="1079" alt="image" src="https://github.com/user-attachments/assets/ad7f9788-40ac-4b36-9208-ab3384ff2130" />
+
 
 <div align="center">
 
-## 🚀 Personal Portfolio Website
+## hassanx.tech
 
 [![CodeFactor](https://img.shields.io/codefactor/grade/github/HassanXTech/hassanx.tech?color=2f2a24&logo=codefactor&logoColor=fff&style=for-the-badge)](https://www.codefactor.io/repository/github/HassanXTech/hassanx.tech)
 [![GitHub Stars](https://img.shields.io/github/stars/HassanXTech/hassanx.tech?color=463f37&logo=github&logoColor=fff&style=for-the-badge)](https://github.com/HassanXTech/hassanx.tech)
