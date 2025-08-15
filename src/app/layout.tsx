@@ -13,52 +13,73 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hassan Tech - Designer Engineer",
-  description: "Frontend developer and designer with 3 years of experience creating user-friendly interfaces that work well and look good. Based in Düsseldorf, building accessible and performant web applications.",
-  authors: [{ name: "Hassan", url: "https://hassanx.tech" }],
+  metadataBase: new URL("https://hassanx.tech"),
+  title: {
+    default: "Hassan Tech (HassanXTech / Hassan Shafique) — Frontend Developer & Designer",
+    template: "%s | Hassan Tech",
+  },
+  description:
+    "Frontend developer & designer crafting fast, accessible web experiences. Also known as HassanXTech (Hassan Shafique). Düsseldorf-based.",
+  authors: [{ name: "Hassan Tech", url: "https://hassanx.tech" }],
   creator: "Hassan Tech",
   publisher: "Hassan Tech",
   keywords: [
+    "Hassan Tech",
+    "HassanXTech",
+    "Hassan Shafique",
     "frontend developer",
-    "web designer",
     "react developer",
     "typescript",
-    "UI/UX design",
+    "UI/UX designer",
     "web development",
     "Düsseldorf developer",
+    "Dusseldorf developer",
     "design engineer",
     "accessible interfaces",
-    "modern web design"
+    "modern web design",
   ],
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://hassanx.tech/",
+  },
   category: "technology",
   applicationName: "Hassan Tech Portfolio",
   openGraph: {
-    title: "Hassan Tech - Frontend Developer & Designer",
-    description: "Frontend developer and designer with 3 years of experience creating user-friendly interfaces that work well and look good.",
+    title: "Hassan Tech (HassanXTech / Hassan Shafique) — Frontend Developer & Designer",
+    description:
+      "Frontend developer & designer with 3+ years building user-friendly, performant interfaces.",
     url: "https://hassanx.tech",
     siteName: "Hassan Tech",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.hassanx.vercel.app/hassan.png",
+        url: "https://hassanx.tech/hassan.png",
         width: 1200,
         height: 630,
-        alt: "Hassan Tech - Frontend Developer & Designer",
+        alt: "Hassan Tech — Frontend Developer & Designer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     creator: "@hassantech",
-    title: "Hassan Tech - Frontend Developer & Designer",
-    description: "Frontend developer and designer with 3 years of experience creating user-friendly interfaces that work well and look good.",
-    images: ["https://www.hassanx.vercel.app/hassan.png"],
+    title: "Hassan Tech — Frontend Developer & Designer",
+    description:
+      "Frontend developer & designer with 3+ years building user-friendly, performant interfaces.",
+    images: ["https://hassanx.tech/hassan.png"],
   },
-  icons: {
-    icon: "/favicon.ico",
-  },
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({
@@ -66,12 +87,50 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // JSON-LD structured data for Person and WebSite
+  const personLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://hassanx.tech/#person",
+    name: "Hassan Tech",
+    alternateName: ["HassanXTech", "Hassan Shafique"],
+    url: "https://hassanx.tech/",
+    image: "https://hassanx.tech/hassan.png",
+    jobTitle: "Frontend Developer & Designer",
+    sameAs: [
+      "https://github.com/HassanXTech",
+      "https://www.instagram.com/hassantech",
+      "https://www.tiktok.com/@HassanTech",
+      "https://www.linkedin.com/in/HassanTech",
+    ],
+  } as const;
+
+  const websiteLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://hassanx.tech/#website",
+    url: "https://hassanx.tech/",
+    name: "Hassan Tech",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://www.google.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  } as const;
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personLd) }}
+        />
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }}
+        />
       </body>
     </html>
   );
